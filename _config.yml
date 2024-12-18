@@ -34,7 +34,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
+plugins: [jekyll-paginate]
 
 
 # Markdown settings
@@ -67,14 +67,14 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "前端小透明，摸爬滚打前行中。"
+sidebar-about-description: "小透明，摸爬滚打前行中。"
 sidebar-avatar: /img/avatar-nancy.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 1             # A tag will be featured if the size of it is more than this condition value
 
 
 
