@@ -10,11 +10,17 @@ conf/application.conf.bak
 *.iml
 *.ipr
 *.iws
-*.md
 target/
 *.bak
 .classpath
 .externalToolBuilders/
 .project
 build/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
 
